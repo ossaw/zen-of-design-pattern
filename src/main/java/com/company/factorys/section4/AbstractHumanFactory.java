@@ -6,6 +6,6 @@ package com.company.factorys.section4;
  */
 public abstract class AbstractHumanFactory {
 
-	public abstract Human createHuman();
-	
+    public abstract Human createHuman();
+
 }

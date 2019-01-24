@@ -5,10 +5,10 @@ package com.company.pkcross.command_vs_strategy.command;
  * I'm glad to share my knowledge with you all.
  */
 public interface IReceiver {
-	
-	//执行zip命令
-	public boolean zipExec(String source,String to);
-	
-	//执行gzip命令
-	public boolean gzipExec(String source,String to);
+
+    //执行zip命令
+    public boolean zipExec(String source, String to);
+
+    //执行gzip命令
+    public boolean gzipExec(String source, String to);
 }

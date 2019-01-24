@@ -7,8 +7,8 @@ package com.company.pkbehavior.command_vs_strategy.command;
 public class ZipUncompressCmd extends AbstractCmd {
 
 
-	public boolean execute(String source,String to) {
-		return super.uncompress.zipExec(source, to);
-	}
+    public boolean execute(String source, String to) {
+        return super.uncompress.zipExec(source, to);
+    }
 
 }

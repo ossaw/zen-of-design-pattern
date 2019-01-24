@@ -5,7 +5,7 @@ package com.company.pkcross.wrapper.decorator;
  * I'm glad to share my knowledge with you all.
  */
 public interface IStar {
-	
-	//演戏
-	public void act();
+
+    //演戏
+    public void act();
 }

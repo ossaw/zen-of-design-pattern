@@ -6,9 +6,10 @@ package com.company.pkcreate.AbstractFactory_vs_Builder.builder;
  */
 //汽车接口
 public interface ICar {
-	//汽车的车轮
-	public String getWheel();
-	//汽车引擎
-	public String getEngine();
+    //汽车的车轮
+    public String getWheel();
+
+    //汽车引擎
+    public String getEngine();
 }
 

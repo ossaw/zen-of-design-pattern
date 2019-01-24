@@ -6,9 +6,9 @@ package com.company.srp.section1;
  * ҵ�������
  */
 public class Client {
-	
-	public static void main(String[] args) {
-		IUserInfo userInfo = new UserInfo();
-		userInfo.changePassword("abc");
-	}
+
+    public static void main(String[] args) {
+        IUserInfo userInfo = new UserInfo();
+        userInfo.changePassword("abc");
+    }
 }

@@ -6,8 +6,8 @@ package com.company.pkcross.command_vs_strategy.command;
  */
 public class GzipCompressCmd extends AbstractCmd {
 
-	public boolean execute(String source,String to) {
-		return super.compress.gzipExec(source, to);
-	}
+    public boolean execute(String source, String to) {
+        return super.compress.gzipExec(source, to);
+    }
 
 }

@@ -5,58 +5,59 @@ package com.company.pkcross.strategy_vs_bridge.bridge;
  * I'm glad to share my knowledge with you all.
  */
 public abstract class MailTemplate {
-	//邮件发件人
-	private String from;
-	//收件人
-	private String to;
-	//邮件标题
-	private String subject;
-	//邮件内容
-	private String context;
+    //邮件发件人
+    private String from;
+    //收件人
+    private String to;
+    //邮件标题
+    private String subject;
+    //邮件内容
+    private String context;
 
-	//通过构造函数传递足够多的信息
-	public MailTemplate(String _from,String _to,String _subject,String _context){
-		this.from = _from;
-		this.to = _to;
-		this.subject = _subject;
-		this.context = _context;
-	}
-	
-	public String getFrom() {
-		return from;
-	}
+    //通过构造函数传递足够多的信息
+    public MailTemplate(String _from, String _to, String _subject,
+                        String _context) {
+        this.from = _from;
+        this.to = _to;
+        this.subject = _subject;
+        this.context = _context;
+    }
 
-	public void setFrom(String from) {
-		this.from = from;
-	}
+    public String getFrom() {
+        return from;
+    }
 
-	public String getTo() {
-		return to;
-	}
-	
-	public void setTo(String to) {
-		this.to = to;
-	}
+    public void setFrom(String from) {
+        this.from = from;
+    }
 
-	public String getSubject() {
-		return subject;
-	}
+    public String getTo() {
+        return to;
+    }
 
-	public void setSubject(String subject) {
-		this.subject = subject;
-	}
+    public void setTo(String to) {
+        this.to = to;
+    }
 
-	public void setContext(String context){
-		this.context = context;
-	}
-	
-	//邮件都有内容
-	public String getContext(){
-		return context;
-	}
-	
-	//允许增加邮件发送标志
-	public void add(String sendInfo){
-		context = sendInfo + context;
-	}
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    //邮件都有内容
+    public String getContext() {
+        return context;
+    }
+
+    public void setContext(String context) {
+        this.context = context;
+    }
+
+    //允许增加邮件发送标志
+    public void add(String sendInfo) {
+        context = sendInfo + context;
+    }
 }

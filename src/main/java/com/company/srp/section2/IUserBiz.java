@@ -7,18 +7,18 @@ package com.company.srp.section2;
  */
 public interface IUserBiz {
 
-	//�޸��û�������
-	public boolean changePassword(String oldPassword);
-	
-	//ɾ���û�
-	public boolean deleteUser();
-	
-	//�û�ӳ��
-	public void mapUser();
-	
-	//���һ����֯
-	public void addOrg(IUserBO userBO,int orgID);
-	
-	//���һ���ɫ
-	public void addRole(IUserBO userBO,int roleID);
+    //�޸��û�������
+    public boolean changePassword(String oldPassword);
+
+    //ɾ���û�
+    public boolean deleteUser();
+
+    //�û�ӳ��
+    public void mapUser();
+
+    //���һ����֯
+    public void addOrg(IUserBO userBO, int orgID);
+
+    //���һ���ɫ
+    public void addRole(IUserBO userBO, int roleID);
 }

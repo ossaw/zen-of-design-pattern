@@ -5,8 +5,8 @@ package com.company.ocp.section5;
  * I'm glad to share my knowledge with you all.
  * 计算机书籍
  */
-public interface IComputerBook extends IBook{
-	
-	//计算机书籍是有一个范围
-	public String getScope();
+public interface IComputerBook extends IBook {
+
+    //计算机书籍是有一个范围
+    public String getScope();
 }

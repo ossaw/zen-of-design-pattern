@@ -5,7 +5,7 @@ package com.company.pkcross.wrapper.bridge;
  * I'm glad to share my knowledge with you all.
  */
 public abstract class AbstractAction {
-	
-	//每个活动都有描述
-	public abstract void desc();
+
+    //每个活动都有描述
+    public abstract void desc();
 }

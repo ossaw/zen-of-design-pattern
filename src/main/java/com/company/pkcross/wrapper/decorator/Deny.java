@@ -5,14 +5,14 @@ package com.company.pkcross.wrapper.decorator;
  * I'm glad to share my knowledge with you all.
  */
 public class Deny extends Decorator {
-	
-	public Deny(IStar _star){
-		super(_star);
-	}
-	
-	@Override
-	public void act(){
-		super.act();
-		System.out.println("排演后：百般抵赖，死不承认");
-	}
+
+    public Deny(IStar _star) {
+        super(_star);
+    }
+
+    @Override
+    public void act() {
+        super.act();
+        System.out.println("排演后：百般抵赖，死不承认");
+    }
 }

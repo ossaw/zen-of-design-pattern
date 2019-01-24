@@ -5,11 +5,11 @@ package com.company.pkcreate.AbstractFactory_vs_Builder.abstract_factory;
  * I'm glad to share my knowledge with you all.
  */
 public class BenzVan extends AbsBenz {
-	private final static String R_SERIES = "R系列商务车";
-	
-	@Override
-	public String getModel() {
-		return R_SERIES;
-	}
+    private final static String R_SERIES = "R系列商务车";
+
+    @Override
+    public String getModel() {
+        return R_SERIES;
+    }
 
 }

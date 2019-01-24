@@ -7,9 +7,9 @@ package com.company.pkcross.wrapper.bridge;
 public class ActFilm extends AbstractAction {
 
 
-	@Override
-	public void desc() {
-		System.out.println("演出精彩绝伦的电影");
-	}
+    @Override
+    public void desc() {
+        System.out.println("演出精彩绝伦的电影");
+    }
 
 }

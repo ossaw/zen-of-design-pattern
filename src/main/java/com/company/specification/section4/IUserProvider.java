@@ -8,7 +8,7 @@ import java.util.ArrayList;
  * I'm glad to share my knowledge with you all.
  */
 public interface IUserProvider {
-	
-	//根据条件查找用户
-	public ArrayList<User> findUser(IUserSpecification userSpec);
+
+    //根据条件查找用户
+    public ArrayList<User> findUser(IUserSpecification userSpec);
 }

@@ -6,6 +6,6 @@ package com.company.mvc.helper;
  */
 public interface Watchable {
 
-	//监听
-	public void watch();
+    //监听
+    public void watch();
 }

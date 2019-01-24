@@ -5,5 +5,5 @@ package com.company.chain_of_responsibility.example;
  * I'm glad to share my knowledge with you all.
  */
 public class Response {
-	//处理者返回的数据
+    //处理者返回的数据
 }

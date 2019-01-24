@@ -6,6 +6,6 @@ package com.company.strategy.section5;
  */
 interface Calculator {
 
-	public int exec(int a,int b);
-	
+    public int exec(int a, int b);
+
 }

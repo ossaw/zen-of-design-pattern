@@ -6,9 +6,9 @@ package com.company.pkcross.wrapper.bridge;
  */
 public class Sing extends AbstractAction {
 
-	@Override
-	public void desc() {
-		System.out.println("唱出优美的歌曲");
-	}
+    @Override
+    public void desc() {
+        System.out.println("唱出优美的歌曲");
+    }
 
 }

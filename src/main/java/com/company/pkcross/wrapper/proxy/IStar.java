@@ -6,7 +6,7 @@ package com.company.pkcross.wrapper.proxy;
  * 明星类
  */
 public interface IStar {
-	
-	//明星都会签名
-	public void sign();
+
+    //明星都会签名
+    public void sign();
 }

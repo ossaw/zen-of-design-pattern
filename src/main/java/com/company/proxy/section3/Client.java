@@ -5,10 +5,10 @@ package com.company.proxy.section3;
  * I'm glad to share my knowledge with you all.
  */
 public class Client {
-	
-	public static void main(String[] args) {
-		Subject realSub = new RealSubject();
-		Subject proxy = new Proxy(realSub);
-		proxy.request();
-	}
+
+    public static void main(String[] args) {
+        Subject realSub = new RealSubject();
+        Subject proxy = new Proxy(realSub);
+        proxy.request();
+    }
 }

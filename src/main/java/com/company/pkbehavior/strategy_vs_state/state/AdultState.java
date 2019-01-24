@@ -6,11 +6,11 @@ package com.company.pkbehavior.strategy_vs_state.state;
  */
 public class AdultState extends HumanState {
 
-	//成年人的工作就是挣钱
-	@Override
-	public void work() {
-		System.out.println("成年人的工作就是挣钱！");
-		super.human.setState(Human.OLD_STATE);
-	}
+    //成年人的工作就是挣钱
+    @Override
+    public void work() {
+        System.out.println("成年人的工作就是挣钱！");
+        super.human.setState(Human.OLD_STATE);
+    }
 
 }

@@ -5,14 +5,14 @@ package com.company.pkcreate.AbstractFactory_vs_Builder.abstract_factory;
  * I'm glad to share my knowledge with you all.
  */
 public class BenzFactory implements CarFactory {
-	
-	//生产SUV
-	public ICar createSuv() {
-		return new BenzSuv();
-	}
-	
-	//生产商务车
-	public ICar createVan(){
-		return new BenzVan();
-	}
+
+    //生产SUV
+    public ICar createSuv() {
+        return new BenzSuv();
+    }
+
+    //生产商务车
+    public ICar createVan() {
+        return new BenzVan();
+    }
 }

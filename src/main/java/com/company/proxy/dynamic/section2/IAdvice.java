@@ -6,7 +6,7 @@ package com.company.proxy.dynamic.section2;
  * 抽象通知
  */
 public interface IAdvice {
-	
-	//通知只有一个方法，执行即可
-	public void exec();
+
+    //通知只有一个方法，执行即可
+    public void exec();
 }

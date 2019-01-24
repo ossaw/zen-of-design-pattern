@@ -7,6 +7,6 @@ package com.company.dip.section3;
  */
 public interface ICar {
 
-	//是汽车就应该能跑
-	public void run();
+    //是汽车就应该能跑
+    public void run();
 }

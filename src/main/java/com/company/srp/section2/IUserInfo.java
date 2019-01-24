@@ -5,5 +5,5 @@ package com.company.srp.section2;
  * I'm glad to share my knowledge with you all.
  */
 public interface IUserInfo extends IUserBiz, IUserBO {
-	
+
 }

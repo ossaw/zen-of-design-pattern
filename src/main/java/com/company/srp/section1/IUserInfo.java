@@ -6,31 +6,31 @@ package com.company.srp.section1;
  * �û���Ϣ����
  */
 public interface IUserInfo {
-	
-	//�����û���ID
-	public void setUserID(String userID);
-	
-	//����û���ID
-	public String getUserID();
-	
-	//�����û�������
-	public void setPassword(String password);
-	
-	//����û�������
-	public String getPassword();
-	
-	//�����û�������
-	public void setUserName(String userName);
-	
-	//����û�������
-	public String getUserName();
-	
-	//�޸��û�������
-	public boolean changePassword(String oldPassword);
-	
-	//ɾ���û�
-	public boolean deleteUser();
-	
-	//�û�ӳ��
-	public void mapUser();
+
+    //����û���ID
+    public String getUserID();
+
+    //�����û���ID
+    public void setUserID(String userID);
+
+    //����û�������
+    public String getPassword();
+
+    //�����û�������
+    public void setPassword(String password);
+
+    //����û�������
+    public String getUserName();
+
+    //�����û�������
+    public void setUserName(String userName);
+
+    //�޸��û�������
+    public boolean changePassword(String oldPassword);
+
+    //ɾ���û�
+    public boolean deleteUser();
+
+    //�û�ӳ��
+    public void mapUser();
 }

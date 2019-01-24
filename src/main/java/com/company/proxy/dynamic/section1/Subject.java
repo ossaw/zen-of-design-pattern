@@ -5,7 +5,7 @@ package com.company.proxy.dynamic.section1;
  * I'm glad to share my knowledge with you all.
  */
 public interface Subject {
-	
-	//业务操作
-	public void doSomething(String abc);
+
+    //业务操作
+    public void doSomething(String abc);
 }

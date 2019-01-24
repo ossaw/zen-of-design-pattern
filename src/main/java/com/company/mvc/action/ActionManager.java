@@ -6,10 +6,10 @@ package com.company.mvc.action;
  * I'm glad to share my knowledge with you all.
  */
 public class ActionManager {
-	
 
-	//执行Action的指定方法
-	public String execAction(String actionName){
-		return null;
-	}
+
+    //执行Action的指定方法
+    public String execAction(String actionName) {
+        return null;
+    }
 }

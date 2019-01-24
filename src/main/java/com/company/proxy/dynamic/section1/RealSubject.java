@@ -6,9 +6,9 @@ package com.company.proxy.dynamic.section1;
  */
 public class RealSubject implements Subject {
 
-	//业务操作
-	public void doSomething(String str) {
-		System.out.println("do something!---->" + str);
-	}
+    //业务操作
+    public void doSomething(String str) {
+        System.out.println("do something!---->" + str);
+    }
 
 }

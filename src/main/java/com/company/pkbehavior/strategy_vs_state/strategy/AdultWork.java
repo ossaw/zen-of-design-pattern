@@ -6,11 +6,11 @@ package com.company.pkbehavior.strategy_vs_state.strategy;
  */
 public class AdultWork extends WorkAlgorithm {
 
-	//成年人的工作
-	@Override
-	public void work() {
-		System.out.println("成年人的工作就是挣钱！");
+    //成年人的工作
+    @Override
+    public void work() {
+        System.out.println("成年人的工作就是挣钱！");
 
-	}
+    }
 
 }

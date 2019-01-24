@@ -6,16 +6,17 @@ package com.company.factory_strategy;
  * 策略登记
  */
 public enum StrategyMan {
-	
-	SteadyDeduction("com.company.SteadyDeduction"),
-	FreeDeduction("com.company.FreeDeduction");
-	
-	String value = "";
-	private StrategyMan(String _value){
-		this.value = _value;
-	}
-	
-	public String getValue(){
-		return this.value;
-	}
+
+    SteadyDeduction("com.company.SteadyDeduction"), FreeDeduction("com" +
+            ".company.FreeDeduction");
+
+    String value = "";
+
+    private StrategyMan(String _value) {
+        this.value = _value;
+    }
+
+    public String getValue() {
+        return this.value;
+    }
 }

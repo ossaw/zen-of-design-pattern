@@ -5,7 +5,7 @@ package com.company.mvc.action;
  * I'm glad to share my knowledge with you all.
  */
 public interface IActionDispather {
-	
-	//根据action的名字，返回处理结果
-	public String actionInvoke(String actionName);
+
+    //根据action的名字，返回处理结果
+    public String actionInvoke(String actionName);
 }

@@ -6,10 +6,10 @@ package com.company.pkbehavior.strategy_vs_state.strategy;
  */
 public class OldWork extends WorkAlgorithm {
 
-	//老年人的工作
-	@Override
-	public void work() {
-		System.out.println("老年人的工作就是回忆以前的生活！");
-	}
+    //老年人的工作
+    @Override
+    public void work() {
+        System.out.println("老年人的工作就是回忆以前的生活！");
+    }
 
 }

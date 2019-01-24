@@ -6,16 +6,16 @@ package com.company.srp.section3;
  * �绰�Ľӿ�
  */
 public interface IPhone {
-	
-	//��ͨ�绰
-	public void dial(String phoneNumber);
-	
-	//ͨ��
-	public void call(Object o);
-	
-	//��Ӧ��ֻ���Լ�˵����û�л�Ӧ������ɶ����
-	public void answer(Object o);
-	
-	//ͨ����ϣ��ҵ绰
-	public void huangup();
+
+    //��ͨ�绰
+    public void dial(String phoneNumber);
+
+    //ͨ��
+    public void call(Object o);
+
+    //��Ӧ��ֻ���Լ�˵����û�л�Ӧ������ɶ����
+    public void answer(Object o);
+
+    //ͨ����ϣ��ҵ绰
+    public void huangup();
 }

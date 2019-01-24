@@ -5,6 +5,6 @@ package com.company.visitor.section6;
  * I'm glad to share my knowledge with you all.
  */
 public interface Role {
-	//演员要扮演的角色
+    //演员要扮演的角色
 }
 

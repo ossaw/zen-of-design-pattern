@@ -11,9 +11,9 @@ import java.util.Map;
 @SuppressWarnings("all")
 public class Son extends Father {
 
-	public Collection doSomething(Map map){
-		System.out.println("子类被执行...");		
-		return map.values();
-	}
-	
+    public Collection doSomething(Map map) {
+        System.out.println("子类被执行...");
+        return map.values();
+    }
+
 }

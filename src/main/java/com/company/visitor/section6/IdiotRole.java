@@ -5,5 +5,5 @@ package com.company.visitor.section6;
  * I'm glad to share my knowledge with you all.
  */
 public class IdiotRole implements Role {
-	//一个弱智角色	
+    //一个弱智角色
 }

@@ -7,8 +7,8 @@ package com.company.pkstructure.proxy_vs_decorator.proxy;
 public class Runner implements IRunner {
 
 
-	public void run() {
-		System.out.println("运动员跑步：动作很潇洒");
-	}
+    public void run() {
+        System.out.println("运动员跑步：动作很潇洒");
+    }
 
 }

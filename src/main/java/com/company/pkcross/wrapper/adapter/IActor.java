@@ -6,7 +6,7 @@ package com.company.pkcross.wrapper.adapter;
  * 普通演员
  */
 public interface IActor {
-	
-	//真实的演员演戏
-	public void playact(String contet);
+
+    //真实的演员演戏
+    public void playact(String contet);
 }

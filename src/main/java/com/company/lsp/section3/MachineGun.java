@@ -5,9 +5,9 @@ package com.company.lsp.section3;
  * I'm glad to share my knowledge with you all.
  * 机枪
  */
-public class MachineGun extends AbstractGun{
-	
-	public void shoot(){
-		System.out.println("机枪扫射...");
-	}
+public class MachineGun extends AbstractGun {
+
+    public void shoot() {
+        System.out.println("机枪扫射...");
+    }
 }

@@ -1,7 +1,6 @@
 package com.company.factorys.section1;
 
 
-
 /**
  * @author cbf4Life cbf4life@126.com
  * I'm glad to share my knowledge with you all.
@@ -12,17 +11,17 @@ package com.company.factorys.section1;
  * 我们把这个生产人的过程用Java程序表现出来：
  */
 public class HumanFactory extends AbstractHumanFactory {
-	
-	@SuppressWarnings("unchecked")
-	public <T extends Human> T createHuman(Class<T> c){
-		//定义一个生产的人种
-		Human human=null;  	
-		try {
-			 //产生一个人种
-			human = (Human)Class.forName(c.getName()).newInstance();  			
-		} catch (Exception e) {
-			System.out.println("人种生成错误！");
-		}
-		return (T)human;
-	}
+
+    @SuppressWarnings("unchecked")
+    public <T extends Human> T createHuman(Class<T> c) {
+        //定义一个生产的人种
+        Human human = null;
+        try {
+            //产生一个人种
+            human = (Human) Class.forName(c.getName()).newInstance();
+        } catch (Exception e) {
+            System.out.println("人种生成错误！");
+        }
+        return (T) human;
+    }
 }

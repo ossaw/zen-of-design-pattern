@@ -6,6 +6,6 @@ package com.company.factorys.section1;
  */
 public abstract class AbstractHumanFactory {
 
-	public abstract <T extends Human> T createHuman(Class<T> c);
-	
+    public abstract <T extends Human> T createHuman(Class<T> c);
+
 }

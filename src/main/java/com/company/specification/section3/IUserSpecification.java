@@ -5,8 +5,8 @@ package com.company.specification.section3;
  * I'm glad to share my knowledge with you all.
  */
 public interface IUserSpecification {
-	
-	//候选者是否满足要求
-	public boolean IsSatisfiedBy(User user);	
+
+    //候选者是否满足要求
+    public boolean IsSatisfiedBy(User user);
 }
 
