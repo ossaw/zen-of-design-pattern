@@ -3,3 +3,9 @@
 .classpath
 bin/
 target/
+.idea/
+.idea/compiler.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/workspace.xml
+zen-of-design-pattern.iml
